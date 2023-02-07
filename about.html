@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"
+        <title> </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+      <section class="sub-header">
+        <nav>
+          
+          
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenue()"></i>
+
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="styling.html">STYLING</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" aria-hidden="true" onclick="showMenue()"></i>
+        </nav>
+ <h1>About Us</h1>
+
+      </section>
+<!-----about us content----->
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <H1>We Design Clothing that reflact your inner diva</H1>
+      <p>Denim Dukaan<br>
+        ‘DENIM DUKAAN’ is driving fashion store and home to the eponymous FASHION brand.
+         A by-and-by curated determination of brands that are connected by a mix of tender loving care, quality, and craftsmanship.
+          We pride ourselves on the learning and dimension of administration offered, particularly the network worked around the store.
+          THE DENIM DUKAAN STORE caters to thoughtful shoppers who appreciate unique designs and top quality pieces you just can’t find anywhere else. We are constantly curating fresh new collections and looking for the next big thing our customers will love. Founded in Mumbai in 2019,
+           we are proud to be your Online Clothing Shop that you can rely on for our expert service and care.
+           Our Mission is to make a difference through our branding by staying ahead of the fashion trends, defining style and giving customers what they want.
+           Our Vision is to change the way our society connects with the fashion industry by providing our customers with products that are ethically and responsibly sourced.
+           THE DENIM DUKAAN STORE is here to serve you and make sure you find the Perfect Look for every occasion. 
+           Our passion for fashion is the reason why we are here.
+            We absolutely love what we do, and our goal is to help our customers by providing them with unique outfit and accessories that make them stand-out from the crowd.
+          </p>
+          <a href="" class="button red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+      <img src="images/about2.jpg">
+    </div>
+  </div>
+</section>
+
+<!------footer-------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>We design clothing that reflect you inner diva<br>
+  All the pieces are customly designed by our team and made by skilled artists with all love.</p>
+  <div class="icons">
+    <i class="fa fa-star"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+ </div>
+ <p>Made with love<i class="fa fa-heart-o"></i> by Denim Dukaan</p>
+</section>
+
+
+
+
+
+
+
+<!---javascript for menue-->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenue(){
+          navLinks.style.right = "0";
+        }
+        function hideMenue(){
+          navLinks.style.right = "-200px";
+        }
+      </script>
+    </body>
+</html>
